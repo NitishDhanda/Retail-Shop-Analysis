@@ -28,7 +28,7 @@ Key Queries and Solutions
 1. Checking for Missing or Null Values
 We first ensured that there were no missing or NULL values in the dataset:
 
-sql
+ ''' sql
 Copy code
 SELECT * FROM Retail_Sales
 WHERE transactions_id IS NULL 
@@ -42,7 +42,9 @@ OR quantity IS NULL
 OR cogs IS NULL
 OR total_sale IS NULL
 OR price_per_unit IS NULL;
-2. Key Business Insights
+'''
+
+3. Key Business Insights
 Sales on Specific Date (2022-11-05):
 sql
 Copy code
